@@ -1,0 +1,47 @@
+{
+	"textures": {
+		"0": "animated_java:item/dragonmounts/mountdragon_default"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [3.83083, 7, 0.57358],
+			"to": [12.83083, 11, 8.57358],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [19.08083, -10, 20]
+			},
+			"faces": {
+				"north": {
+					"uv": [11.5, 0.5, 12.0625, 0.75],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [11, 0.5, 11.5, 0.75],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [12.5625, 0.5, 13.125, 0.75],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [12.0625, 0.5, 12.5625, 0.75],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [12.0625, 0.5, 11.5, 0],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [12.0625, 0.5, 12.625, 0],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}

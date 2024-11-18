@@ -1,0 +1,20 @@
+{
+    "sources": [
+        {
+            "type": "single",
+            "resource": "minecraft:blockbench/amcore"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:blockbench/amwand"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:blockbench/amgolem"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:blockbench/amgolemhurt"
+        }
+    ]
+}
