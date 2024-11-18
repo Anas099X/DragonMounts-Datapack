@@ -1,0 +1,2 @@
+summon camel ~ ~ ~ {Silent:1b,Tame:1b,Tags:["dragonmounts.ai"],attributes:[{id:"minecraft:fall_damage_multiplier",base:0},{id:"minecraft:gravity",base:0.02},{id:"minecraft:movement_speed",base:2},{id:"minecraft:scale",base:1.5}],SaddleItem:{id:"minecraft:saddle",count:1b}}
+ride @s mount @n[type=camel,distance=..2,tag=dragonmounts.ai]
