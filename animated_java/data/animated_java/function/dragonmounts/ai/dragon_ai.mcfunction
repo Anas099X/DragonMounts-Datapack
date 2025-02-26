@@ -2,6 +2,7 @@ execute at @s unless entity @p[nbt={RootVehicle:{Entity:{Tags:["dragonmounts.ai"
 execute at @s unless entity @p[nbt={RootVehicle:{Entity:{Tags:["dragonmounts.ai"]}}},distance=..3,limit=1] run attribute @s minecraft:movement_speed base set 0.123
 execute on passengers as @s[tag=aj.dragonmounts.root] on vehicle at @s on passengers run rotate @s[tag=aj.dragonmounts.root] ~ 0
 
+
 #idle
 execute if entity @s[nbt={Motion:[0.0,-0.0784000015258789,0.0]},nbt={OnGround:1b}] on passengers if entity @s[tag=aj.dragonmounts.root,tag=!aj.dragonmounts.animation.idle.playing] run function animated_java:dragonmounts/animations/idle/tween {to_frame: 10, duration: 10}
 
