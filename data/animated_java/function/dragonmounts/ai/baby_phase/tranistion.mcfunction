@@ -1,0 +1,1 @@
+execute as @n[type=item_display,tag=aj.dragonmounts.root,tag=dragonmounts.ai.baby_to_adult] at @s run function animated_java:dragonmounts/ai/spawn_adult
