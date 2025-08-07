@@ -5,3 +5,5 @@ scoreboard objectives add aj.sit.frame dummy
 scoreboard objectives add aj.baby.frame dummy
 scoreboard objectives add aj.fly.frame dummy
 scoreboard objectives add aj.hover.frame dummy
+scoreboard objectives add camel_pose dummy
+scoreboard objectives add dragon_egg_hatching dummy

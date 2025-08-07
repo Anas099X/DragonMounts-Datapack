@@ -1,1 +1,0 @@
-execute as @e[type=camel,sort=random,tag=dragonmounts.ai] run function animated_java:dragonmounts/ai/dragon_selectors
