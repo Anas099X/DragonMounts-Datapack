@@ -1,1 +1,0 @@
-summon armor_stand ~ ~ ~ {Invulnerable:0b,Small:1b,Marker:0b,Invisible:1b,Tags:["dragonmounts.ai.egg","dragonmounts.ai.fire"],Passengers:[{id:"minecraft:block_display",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.5f,-1f,-0.5f],scale:[1f,1f,1f]},block_state:{Name:"minecraft:dragon_egg"}}]}

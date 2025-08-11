@@ -1,0 +1,6 @@
+{
+	"parent": "animated_java:blueprint/dragonmounts/tail8",
+	"textures": {
+		"0": "animated_java:blueprint/dragonmounts/forest"
+	}
+}

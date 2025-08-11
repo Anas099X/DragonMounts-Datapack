@@ -1,0 +1,48 @@
+{
+	"textures": {
+		"0": "animated_java:blueprint/dragonmounts/end",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [3, 5.76605, 0.35722],
+			"to": [12, 9.76605, 8.35722],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [-1.93185, -9.98996, 13.41406]
+			},
+			"faces": {
+				"north": {
+					"uv": [13.625, 0.5, 14.1875, 0.75],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [13.125, 0.75, 13.625, 0.5],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [14.6875, 0.5, 15.25, 0.75],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [14.1875, 0.75, 14.6875, 0.5],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [14.1875, 0.5, 14.75, 0],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [14.1875, 0, 13.625, 0.5],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}
