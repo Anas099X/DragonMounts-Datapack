@@ -27,4 +27,22 @@ execute if entity @s[nbt={OnGround:0b}] on passengers if entity @s[type=player] 
 execute if entity @s[nbt={OnGround:0b}] on passengers if entity @s[type=player] if predicate {"condition":"minecraft:entity_properties","entity":"this","predicate":{"type_specific":{"type":"minecraft:player","input":{"forward":true}}}} on vehicle on passengers if entity @s[tag=aj.dragonmounts.root,tag=!aj.dragonmounts.animation.fly.playing] run function animated_java:dragonmounts/animations/fly/tween {to_frame: 10, duration: 2}
 
 
+#dragon sounds
+scoreboard players add @s dragon.fly.sounds 1
+scoreboard players add @s dragon.idle.sounds 1
+
+
+#fly sounds
+execute if score @s[nbt={OnGround:0b}] dragon.fly.sounds matches 1 on passengers if entity @s[tag=aj.dragonmounts.root,tag=aj.dragonmounts.animation.fly.playing] run playsound minecraft:entity.ender_dragon.flap ambient @a ~ ~ ~ 1 1
+
+#hover sounds
+execute if score @s[nbt={OnGround:0b}] dragon.fly.sounds matches 1 on passengers if entity @s[tag=aj.dragonmounts.root,tag=aj.dragonmounts.animation.hover.playing] run playsound minecraft:entity.ender_dragon.flap ambient @a ~ ~ ~ 1 1
+execute if score @s[nbt={OnGround:0b}] dragon.fly.sounds matches 4 on passengers if entity @s[tag=aj.dragonmounts.root,tag=aj.dragonmounts.animation.hover.playing] run playsound minecraft:entity.ender_dragon.flap ambient @a ~ ~ ~ 1 1
+
+#idle sounds
+execute if score @s[nbt={OnGround:0b}] dragon.idle.sounds matches 1 run playsound minecraft:entity.ender_dragon.growl ambient @a ~ ~ ~ 1 0.8
+
+# reset score counter
+execute if score @s dragon.fly.sounds matches 6.. run scoreboard players set @s dragon.fly.sounds 0
+execute if score @s dragon.idle.sounds matches 100.. run scoreboard players set @s dragon.idle.sounds 0
 #effect give @s invisibility infinite 1 true

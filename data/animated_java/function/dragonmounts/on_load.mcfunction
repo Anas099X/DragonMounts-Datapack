@@ -5,6 +5,8 @@ scoreboard objectives add aj.sit.frame dummy
 scoreboard objectives add aj.baby.frame dummy
 scoreboard objectives add aj.fly.frame dummy
 scoreboard objectives add aj.hover.frame dummy
+scoreboard objectives add dragon.fly.sounds dummy
+scoreboard objectives add dragon.idle.sounds dummy
 scoreboard objectives add camel_pose dummy
 scoreboard objectives add dragon_egg_hatching dummy
 schedule function animated_java:dragonmounts/ai/delayed_tick 5t

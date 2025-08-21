@@ -12,5 +12,29 @@ execute if score @s dragon_egg_hatching matches 201.. on passengers run kill @s
 execute if score @s dragon_egg_hatching matches 201.. run kill @s
 
 #player iteraction
-$execute if items entity @s weapon.mainhand barrier[custom_data={dragonegg_placeholder:true}] run item replace entity @s weapon.mainhand with armor_stand[item_name={"color":"light_purple","text":"Hatchable Dragon Egg"},item_model="animated_java:blueprint/dragonmounts_eggs/egg",custom_model_data={strings:[$(variant)]},entity_data={id:"minecraft:armor_stand",DisabledSlots:1118225,Invulnerable:1b,ShowArms:1b,Small:1b,Marker:0b,Invisible:1b,Tags:["dragonmounts.ai.egg","dragonmounts.ai.$(variant)"],equipment:{head:{id:"minecraft:diamond",count:1,components:{"minecraft:item_model":"animated_java:blueprint/dragonmounts_eggs/egg","minecraft:custom_model_data":{strings:[$(variant)]}}},mainhand:{id:"minecraft:barrier",count:1,components:{"minecraft:item_model":"minecraft:air","minecraft:custom_data":{dragonegg_placeholder:true}}}},data:{args: {variant:$(variant),animation:baby,start_animation:true}}}]
+$execute if items entity @s weapon.mainhand barrier[custom_data={dragonegg_placeholder:true}] run function animated_java:dragonmounts/ai/egg_phase/item_dragon_egg {variant:$(variant),old:""}
+
+
+#egg variant conversion
+
+#water
+$execute if score @s dragon_egg_hatching matches 30 at @s if biome ~ ~ ~ #is_ocean run function animated_java:dragonmounts/ai/egg_phase/item_dragon_egg {variant:water,old:$(variant)}
+$execute if score @s dragon_egg_hatching matches 30 at @s if biome ~ ~ ~ #is_river run function animated_java:dragonmounts/ai/egg_phase/item_dragon_egg {variant:water,old:$(variant)}
+
+#ice
+$execute if score @s dragon_egg_hatching matches 30 at @s if biome ~ ~ ~ #c:is_snowy run function animated_java:dragonmounts/ai/egg_phase/item_dragon_egg {variant:ice,old:$(variant)}
+$execute if score @s dragon_egg_hatching matches 30 at @s if biome ~ ~ ~ #c:is_icy run function animated_java:dragonmounts/ai/egg_phase/item_dragon_egg {variant:ice,old:$(variant)}
+
+
+#fire
+$execute if score @s dragon_egg_hatching matches 30 at @s if biome ~ ~ ~ #c:is_cave if block ~ ~-1 ~1 lava if block ~ ~-1 ~-1 lava if block ~1 ~-1 ~ lava if block ~-1 ~-1 ~ lava run function animated_java:dragonmounts/ai/egg_phase/item_dragon_egg {variant:fire,old:$(variant)}
+
+#forest
+$execute if score @s dragon_egg_hatching matches 30 at @s if biome ~ ~ ~ #is_forest run function animated_java:dragonmounts/ai/egg_phase/item_dragon_egg {variant:forest,old:$(variant)}
+
+#end
+$execute if score @s dragon_egg_hatching matches 30 at @s if biome ~ ~ ~ #is_end run function animated_java:dragonmounts/ai/egg_phase/item_dragon_egg {variant:end,old:$(variant)}
+
+
+#remove armor stand
 execute unless items entity @s weapon.mainhand * run tp ~ ~-3000 ~

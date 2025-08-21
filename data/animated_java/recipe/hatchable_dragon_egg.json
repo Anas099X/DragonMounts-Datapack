@@ -1,0 +1,78 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "1",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:dragon_egg"
+    ],
+    [
+      "minecraft:echo_shard"
+    ],
+    [
+      "minecraft:ender_eye"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:armor_stand",
+    "components": {
+      "minecraft:entity_data": {
+        "id": "minecraft:armor_stand",
+        "HasVisualFire": false,
+        "data": {
+          "args": {
+            "variant": "default",
+            "animation": "baby",
+            "start_animation": 1
+          }
+        },
+        "DisabledSlots": 1118225,
+        "Invulnerable": false,
+        "ShowArms": true,
+        "Small": true,
+        "Marker": false,
+        "Invisible": true,
+        "Tags": [
+          "dragonmounts.ai.egg",
+          "dragonmounts.ai.default"
+        ],
+        "equipment": {
+          "head": {
+            "id": "minecraft:diamond",
+            "count": 1,
+            "components": {
+              "minecraft:item_model": "animated_java:blueprint/dragonmounts_eggs/egg",
+              "minecraft:custom_model_data": {
+                "strings": [
+                  "default"
+                ]
+              }
+            }
+          },
+          "mainhand": {
+            "id": "minecraft:barrier",
+            "count": 1,
+            "components": {
+              "minecraft:item_model": "minecraft:air",
+              "minecraft:custom_data": {
+                "dragonegg_placeholder": 1
+              }
+            }
+          }
+        }
+      },
+      "minecraft:item_name": {
+        "text": "Hatchable Dragon Egg",
+        "color": "light_purple"
+      },
+      "minecraft:custom_model_data": {
+        "strings": [
+          "default"
+        ]
+      },
+      "minecraft:item_model": "animated_java:blueprint/dragonmounts_eggs/egg",
+      "minecraft:max_stack_size": 1
+    },
+    "count": 1
+  }
+}

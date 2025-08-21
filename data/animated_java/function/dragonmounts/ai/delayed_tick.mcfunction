@@ -10,4 +10,6 @@ execute as @e[type=item_display,sort=random,tag=aj.dragonmounts.root,tag=aj.drag
 #egg phase to baby phase
 execute as @e[type=armor_stand,sort=random,tag=dragonmounts.ai.egg] at @s run function animated_java:dragonmounts/ai/egg_phase/dragon_egg_ai with entity @s data.args
 
+#execute as @a at @s if items entity @s weapon.mainhand armor_stand[item_name={"color":"light_purple","text":"Hatchable Dragon Egg"}] if biome ~ ~ ~ #is_ocean run function animated_java:dragonmounts/ai/egg_phase/item_dragon_egg {variant:water}
+
 schedule function animated_java:dragonmounts/ai/delayed_tick 4t
