@@ -47,4 +47,5 @@ execute on passengers if entity @s[tag=aj.dragonmounts.bone.tail3] run data merg
 execute on passengers if entity @s[tag=aj.dragonmounts.bone.tail2] run data merge entity @s {transformation: [-1f,0f,0f,0f,0f,1f,0f,-0.6562f,0f,0f,-1f,-2.1875f,0f,0f,0f,1f], start_interpolation: 0}
 execute on passengers if entity @s[tag=aj.dragonmounts.bone.tail1] run data merge entity @s {transformation: [-1f,0f,0f,0f,0f,1f,0f,-0.6562f,0f,0f,-1f,-1.5625f,0f,0f,0f,1f], start_interpolation: 0}
 execute on passengers if entity @s[tag=aj.dragonmounts.bone.tail0] run data merge entity @s {transformation: [-1f,0f,0f,0f,0f,1f,0f,-0.4062f,0f,0f,-1f,-0.9375f,0f,0f,0f,1f], start_interpolation: 0}
+execute on passengers if entity @s[tag=aj.dragonmounts.bone.saddle] run data merge entity @s {transformation: [-3.005f,0f,0f,0f,0f,3.005f,0f,2.875f,0f,0f,-3.005f,2.6875f,0f,0f,0f,1f], start_interpolation: 0}
 execute on passengers if entity @s[tag=aj.dragonmounts.bone.body] run data merge entity @s {transformation: [-2.6667f,0f,0f,0f,0f,2.6667f,0f,-0.125f,0f,0f,-2.6667f,3.0625f,0f,0f,0f,1f], start_interpolation: 0}

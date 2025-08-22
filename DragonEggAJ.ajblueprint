@@ -1,0 +1,650 @@
+{
+	"meta": {
+		"format": "animated_java_blueprint",
+		"format_version": "1.7.3",
+		"uuid": "410fd28a-566b-bdff-102c-bbc159269dea",
+		"save_location": "C:\\Users\\Anas\\Desktop\\projects\\minecraft projects\\Dragon Mount Renewed\\DragonEggAJ.ajblueprint",
+		"last_used_export_namespace": ""
+	},
+	"blueprint_settings": {
+		"export_namespace": "dragonmounts_eggs",
+		"show_bounding_box": false,
+		"auto_bounding_box": true,
+		"bounding_box": [48, 48],
+		"enable_plugin_mode": false,
+		"resource_pack_export_mode": "raw",
+		"data_pack_export_mode": "raw",
+		"target_minecraft_versions": ["1.21.5"],
+		"display_item": "minecraft:white_dye",
+		"custom_model_data_offset": 0,
+		"enable_advanced_resource_pack_settings": false,
+		"resource_pack": "C:\\Users\\Anas\\AppData\\Roaming\\ModrinthApp\\profiles\\Simply Optimized\\resourcepacks\\DMD_Resource Pack",
+		"enable_advanced_data_pack_settings": false,
+		"data_pack": "C:\\Users\\Anas\\AppData\\Roaming\\ModrinthApp\\profiles\\Simply Optimized\\saves\\Dragon Mounts Datapack\\datapacks\\DragonMounts-Datapack",
+		"summon_commands": "",
+		"remove_commands": "",
+		"ticking_commands": "",
+		"interpolation_duration": 1,
+		"teleportation_duration": 1,
+		"use_storage_for_animation": true,
+		"show_function_errors": true,
+		"show_outdated_warning": true,
+		"baked_animations": true,
+		"json_file": ""
+	},
+	"resolution": {
+		"width": 64,
+		"height": 64
+	},
+	"elements": [
+		{
+			"name": "egg",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-5, 0, -5],
+			"to": [5, 1, 5],
+			"autouv": 0,
+			"color": 0,
+			"origin": [0, 0, 0],
+			"faces": {
+				"north": {
+					"uv": [3, 28, 13, 29],
+					"texture": 0
+				},
+				"east": {
+					"uv": [3, 28, 13, 29],
+					"texture": 0
+				},
+				"south": {
+					"uv": [3, 28, 13, 29],
+					"texture": 0
+				},
+				"west": {
+					"uv": [3, 28, 13, 29],
+					"texture": 0
+				},
+				"up": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				},
+				"down": {
+					"uv": [13, 13, 3, 3],
+					"texture": 0
+				}
+			},
+			"type": "cube",
+			"uuid": "61f89f62-f235-02df-454e-84ff697b8c27"
+		},
+		{
+			"name": "egg",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-6, 1, -6],
+			"to": [6, 3, 6],
+			"autouv": 0,
+			"color": 0,
+			"origin": [0, 0, 0],
+			"faces": {
+				"north": {
+					"uv": [2, 35, 14, 37],
+					"texture": 0
+				},
+				"east": {
+					"uv": [2, 35, 14, 37],
+					"texture": 0
+				},
+				"south": {
+					"uv": [2, 35, 14, 37],
+					"texture": 0
+				},
+				"west": {
+					"uv": [2, 35, 14, 37],
+					"texture": 0
+				},
+				"up": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				},
+				"down": {
+					"uv": [14, 14, 2, 2],
+					"texture": 0
+				}
+			},
+			"type": "cube",
+			"uuid": "134edda2-59f4-2c55-12ab-a7193a2ea29e"
+		},
+		{
+			"name": "egg",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-7, 3, -7],
+			"to": [7, 8, 7],
+			"autouv": 0,
+			"color": 0,
+			"origin": [0, 0, 0],
+			"faces": {
+				"north": {
+					"uv": [1, 19, 15, 24],
+					"texture": 0
+				},
+				"east": {
+					"uv": [1, 19, 15, 24],
+					"texture": 0
+				},
+				"south": {
+					"uv": [1, 19, 15, 24],
+					"texture": 0
+				},
+				"west": {
+					"uv": [1, 19, 15, 24],
+					"texture": 0
+				},
+				"up": {
+					"uv": [1, 17, 15, 31],
+					"texture": 0
+				},
+				"down": {
+					"uv": [15, 15, 1, 1],
+					"texture": 0
+				}
+			},
+			"type": "cube",
+			"uuid": "1fcb5941-ca1e-1036-c21a-02f84683743d"
+		},
+		{
+			"name": "egg",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-6, 8, -6],
+			"to": [6, 11, 6],
+			"autouv": 0,
+			"color": 0,
+			"origin": [0, 0, 0],
+			"faces": {
+				"north": {
+					"uv": [2, 24, 14, 27],
+					"texture": 0
+				},
+				"east": {
+					"uv": [2, 24, 14, 27],
+					"texture": 0
+				},
+				"south": {
+					"uv": [2, 24, 14, 27],
+					"texture": 0
+				},
+				"west": {
+					"uv": [2, 24, 14, 27],
+					"texture": 0
+				},
+				"up": {
+					"uv": [2, 2, 14, 14],
+					"texture": 0
+				},
+				"down": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				}
+			},
+			"type": "cube",
+			"uuid": "63a329c5-eb0e-5fd3-25d5-bd94f019683b"
+		},
+		{
+			"name": "egg",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-5, 11, -5],
+			"to": [5, 13, 5],
+			"autouv": 0,
+			"color": 0,
+			"origin": [0, 0, 0],
+			"faces": {
+				"north": {
+					"uv": [3, 43, 13, 45],
+					"texture": 0
+				},
+				"east": {
+					"uv": [3, 43, 13, 45],
+					"texture": 0
+				},
+				"south": {
+					"uv": [3, 43, 13, 45],
+					"texture": 0
+				},
+				"west": {
+					"uv": [3, 43, 13, 45],
+					"texture": 0
+				},
+				"up": {
+					"uv": [35, 35, 45, 45],
+					"texture": 0
+				},
+				"down": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				}
+			},
+			"type": "cube",
+			"uuid": "48523e48-a8be-3ad6-3ade-9279942a0f76"
+		},
+		{
+			"name": "egg",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-3, 13, -3],
+			"to": [3, 15, 3],
+			"autouv": 0,
+			"color": 0,
+			"origin": [0, 0, 0],
+			"faces": {
+				"north": {
+					"uv": [2, 1, 8, 3],
+					"texture": 0
+				},
+				"east": {
+					"uv": [2, 1, 8, 3],
+					"texture": 0
+				},
+				"south": {
+					"uv": [2, 1, 8, 3],
+					"texture": 0
+				},
+				"west": {
+					"uv": [2, 1, 8, 3],
+					"texture": 0
+				},
+				"up": {
+					"uv": [5, 5, 11, 11],
+					"texture": 0
+				},
+				"down": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				}
+			},
+			"type": "cube",
+			"uuid": "8bc44d52-1331-5c24-13ca-3711270ccf8f"
+		},
+		{
+			"name": "egg",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-2, 15, -2],
+			"to": [2, 16, 2],
+			"autouv": 0,
+			"color": 0,
+			"origin": [0, 0, 0],
+			"faces": {
+				"north": {
+					"uv": [1, 0, 5, 1],
+					"texture": 0
+				},
+				"east": {
+					"uv": [1, 0, 5, 1],
+					"texture": 0
+				},
+				"south": {
+					"uv": [1, 0, 5, 1],
+					"texture": 0
+				},
+				"west": {
+					"uv": [1, 0, 5, 1],
+					"texture": 0
+				},
+				"up": {
+					"uv": [6, 6, 10, 10],
+					"texture": 0
+				},
+				"down": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				}
+			},
+			"type": "cube",
+			"uuid": "1ba982df-b566-6448-d4ee-c19b2e59dbad"
+		}
+	],
+	"outliner": [
+		{
+			"name": "egg",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"uuid": "e2c8f531-dbcf-7136-c52d-610cb080d3ba",
+			"export": true,
+			"mirror_uv": false,
+			"isOpen": true,
+			"locked": false,
+			"visibility": true,
+			"autouv": 0,
+			"selected": false,
+			"children": [
+				"61f89f62-f235-02df-454e-84ff697b8c27",
+				"134edda2-59f4-2c55-12ab-a7193a2ea29e",
+				"1fcb5941-ca1e-1036-c21a-02f84683743d",
+				"63a329c5-eb0e-5fd3-25d5-bd94f019683b",
+				"48523e48-a8be-3ad6-3ade-9279942a0f76",
+				"8bc44d52-1331-5c24-13ca-3711270ccf8f",
+				"1ba982df-b566-6448-d4ee-c19b2e59dbad"
+			]
+		}
+	],
+	"textures": [
+		{
+			"path": "C:\\Users\\Anas\\Desktop\\projects\\minecraft projects\\DragonMounts3-Preview-1.4.26\\DragonMountsR\\textures\\entity\\dragon_eggs\\ender.png",
+			"name": "ender.png",
+			"folder": "",
+			"namespace": "",
+			"id": "0",
+			"group": "",
+			"width": 64,
+			"height": 64,
+			"uv_width": 64,
+			"uv_height": 64,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"pbr_channel": "color",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": true,
+			"saved": true,
+			"uuid": "d7d2b984-1e19-b80d-3e69-6026a59d6191",
+			"relative_path": "../DragonMounts3-Preview-1.4.26/DragonMountsR/textures/entity/dragon_eggs/ender.png",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAntJREFUeF7tW91Kw1AM3kCwF4J9Aa9EfP/HEfFqT+DdBGGS0ZQs5iTpyuwJfrtqoRknOfn9kuyH4eG0S/yG4W53PH4nvrQ/6ZV+P47jiRmjQ/LPY1Yyo5+r0V8IQN+dvrWXr9fd+/3bxWfezVag30sTIAbpx0yyRmhtaDFdkd4VAAnDYrYlGC2ACvRnAWgm5XuGqcr0swDotqQzpGdi7OnzObR7rREskAr0swlYnr2l6iQs7RCr0l/4AHbvS1U6ih6RSW1JbwpAHkhrgRUKveyod3rTB0gVz2RwlqmwoHqnnwXAzo4PrBmwzIIdp3R21ejPmSAxogXgmYH0Ffxcld4VQCbNZfW3BFCB3kyEOIOTuQGZxOHxw6wIM9lir/SzBnDiI1Vf1gBeXSB9QTX6MAy2coOlwEAmGkTh9BZ4BPAACYhEGRnwgElCwAMm6EzbZKZ0tiIMa94W9MADGBABHiBgbwloSMFIJwk8QKHDunbQSRS/W3YeRZ9b4glhItR7PR8lZNH5gQewEwQeMKG/mcoOeIBomAAPSHaPgAc00mfppfmZTewv8IgwDAIPMAKt1QWSRU4re7SEqf/Lun0vUVpLj/kAzAeIGaEt6nFdYNG7nEJZkpdcc37gAcADJhOo2t/3Ikurl0E0jGdgPiAalIzq6bX1+Nb0wAOAB2A+oD0gUaG/vxaPwHwAj8hgPiCIR73296MwGuEZmA/AfIBTDntzQda4CvYF1MIFw2TWwoUFm11Tz6/FE4AHAA8AHvB7b9AajO61v2/lAUvOHzZGgAckNkatcIl9gWnJUs4btXp99M1W8wnYF/AWJoAHiF3CXvv72Wyzdf5/vy/wAx/BLDd2v0a7AAAAAElFTkSuQmCC"
+		},
+		{
+			"path": "C:\\Users\\Anas\\Desktop\\projects\\minecraft projects\\DragonMounts3-Preview-1.4.26\\DragonMountsR\\textures\\entity\\dragon_eggs\\fire.png",
+			"name": "fire.png",
+			"folder": "",
+			"namespace": "",
+			"id": "1",
+			"group": "",
+			"width": 64,
+			"height": 64,
+			"uv_width": 64,
+			"uv_height": 64,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"pbr_channel": "color",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": true,
+			"saved": true,
+			"uuid": "1e8cb92e-bdc8-7256-e8f3-4406ea88ddcf",
+			"relative_path": "../DragonMounts3-Preview-1.4.26/DragonMountsR/textures/entity/dragon_eggs/fire.png",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAABL5JREFUeF7tm81OHEcUhU/FBoc4iVhnBIts5pV4ANZWBJifGYPHMXSIMYmynweYh8iLsMUaJG+iWcTxX3BbX3XdVo/dg/nZcJNqqdU9RR+Jc+vWrVu3ToV1qZSku5KCpHNJX6lq5L6T2viGdvs7v/n7B14c48MDqfy6Qe5fSfOS3iTyvEMSsrTxm2sutdPmGR82pJLef7C6qD+Gk9jD9LoZgHcM8C6RX19djAb4fTiJ7XiNa/xaMsBPq4uRlLk85HB5u8wAtB+MutpaOYkGwBMwgFd82E4xwIi+Te6Oq7+S9G3yBkhihIVkGIYKvY/Bmpc3fNiSStweMtz/JFL07P6oq8crJ5Ef33BjGCNPu3mMV3w0gLn768YMQE/jARD7JnmFGYqASLsFTM/4sCmVcR5MpCBDr0IOwkbWpkn71oIjhnCNxwOI+BAk6L1Pgc1yAjMIz2LU1SAFP4IeswaXZ3wMgtbLTIW/JVIQY0hA/L4kghtxweZ/jIWRuDzj6zzAiOD65u70rAU+giOEbdrjG8sEefeKj0GwOf4tmhshPMAyQN7vJaMwJeIFlhmCs8So6Rm3HR+HwGDU1c7KSQx+9CZewMU7rs/9XZoVno+66qep0QziGV8nQpB4tHIS3RzC5PcQNIOQE/z150sVw0nsddoZHgwJLq/4aACI2m1p7dFwEknaFLe2uqjj4SR6B8axYcPTM772AHodcpb0QLy5FrAVYVv6ixG84kOuB+R6QK4HxIKI1/X8TesRuR6Q6wG5HpDrAbke4Hk9f9N6RK4H5HpArgdUK16v6/mb1iNyPcC2xryu51Nt5tr1iFwPuKo+gKowF2OPmuBV9QG3DV/nAVtFR4e98YX6AP75/kEnGuCX/nhKHeIVH0wfsFN0VPTG9W5vsybIO1tmphbZO17S3vqLumpMPcErvrUeQA/PB+lV+WV9QLNwasVRT/jP9AHsB7JBMhek3eNlFWun0eXb9AFNEZXtKHnDt+oDILwQpL8pjZft+gC+maUP8IRv1QfYbtB5qLaOTQjV1ALg+rYX+Kk+wBV+lj7ANIFNfcDe8bIO108j8e00a9DbbfoAL/iw09AHbBYdHfTGllzV+gCEUmSKd4M0X07vAptX8HSJf4hMLu1n4+6Ma4IgTaYPYP6P+oBQbYrOldXTtss842MQhFi9v5/GvElla4VoqAhjDIz0Pn1HbuAZH3aCyu3ny3qycVrpA8oq6eEyfcC7IH2valbYP1rW04enMThinHtB8oyPBoDs5rMlFZsvIivUH6YPiIqxIPWfLenD23MNds9iRninTPKZNHy84qMBTA4XI34pbQx+0OHgbEofQNvRk7Po/nFBk4YA7u8avx1UmioEcgvJtW36MyFEzAmSZgCviG6Tysme8bkecNV6wH/2vMBl1vOQf1RU9QCWzs3zAm7xs+oBF50X4NDEr+nAhO3Pf1oP8ILP+oCL9AFI40wQfZ3zAh7w+bxAPi9wzfMCBD2qyLPqAV86b3Bb8FPnBZjK2uoBlz0v4BGf9QFZHyCVHJVBHX6Z8wK9pBpn7FuBxDO+ToTsvNCs8wLM6Qs/3tdub9x6XsArvlUfQIT+uTeeqgf0i472e+NLnRfwhP/fnxf4CAO/YZw9R4/bAAAAAElFTkSuQmCC"
+		},
+		{
+			"path": "C:\\Users\\Anas\\Desktop\\projects\\minecraft projects\\DragonMounts3-Preview-1.4.26\\DragonMountsR\\textures\\entity\\dragon_eggs\\forest.png",
+			"name": "forest.png",
+			"folder": "",
+			"namespace": "",
+			"id": "2",
+			"group": "",
+			"width": 64,
+			"height": 64,
+			"uv_width": 64,
+			"uv_height": 64,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"pbr_channel": "color",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": true,
+			"saved": true,
+			"uuid": "12e9c4f2-a2f5-75e3-529f-71b392311738",
+			"relative_path": "../DragonMounts3-Preview-1.4.26/DragonMountsR/textures/entity/dragon_eggs/forest.png",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAnNJREFUeF7tW71Ow0AMTujChFhQRySeh5GJiYGhEq/AyCsgdWBg4vkQEwu0chRHjuXzGaqSs/iypG3OVew7/333XX95fbHrAtfq9KT7+vwOjLSHtCrfX92sd6wYvSRfnrJSGf05m/zMAHru9Ky9Pd53t08vs2HezGaQ76ULPGzOB+Wet+/DnVeEXg0lpTPKuwZgI1gGoGf6d22ADPKDAfSMyu8RpTLLTwaQM8oK0X1zdza5BDu/pXBW+ckFrMheigGkLK0MjhV6qUsDWq7SkvwsBngzzP5OmYAunQ1kavBcojV50wBaGTmLVir0qiO9ilqTN2MAKcQvGqngLFfJIj8ZgIMdK6wV8AKfDJbZ5IdKkGZcG8BzAxkr+HNWedcAkTKXl79lgAzyZiFklcGU9ravH2ZHaCmq40Kr8tMKoDQnu0Gdv72+gMdmlK+mwVJt4KU+61kkm9TS6THwCOABEhDRM5Chn48EWtbLKsKAB3iASIZ+Xq7aSOuuMxzwAAZEsvbzVs3yEzwDeIC1L5Cpn4/UHFIfjUdUC6HW+/laQVZ7f+ABHASBB4zob6SzAx4w7hrJDhJ4gNo5Bh6gts5axROqaRB4gJForV0kWZJqNMlrs/V/8di/4ieAHwB+gOAI/aafPrQfX1oeeADwgNEFwA8Qzgg8QBlD5vXW9veBBxTofFF+AvgB4Ac4BInIthP4AQIc8Vgl4AeMTHSPdrsEvwB4AM4LiAMT4AfgvMD8wAT4ASMrnAxRYoZbRpL1QwRk8ZqvY8vjvABjgsADgAfYnXVtf/3QfnxpefADwA/AeYHygQngAWKLu9V+Plqtlt7/358X2AOSNUT/DL4RZwAAAABJRU5ErkJggg=="
+		},
+		{
+			"path": "C:\\Users\\Anas\\Desktop\\projects\\minecraft projects\\DragonMounts3-Preview-1.4.26\\DragonMountsR\\textures\\entity\\dragon_eggs\\ice.png",
+			"name": "ice.png",
+			"folder": "",
+			"namespace": "",
+			"id": "3",
+			"group": "",
+			"width": 64,
+			"height": 64,
+			"uv_width": 64,
+			"uv_height": 64,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"pbr_channel": "color",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": true,
+			"saved": true,
+			"uuid": "6a18e7cf-8e33-c16a-ae60-c108fab8b0f2",
+			"relative_path": "../DragonMounts3-Preview-1.4.26/DragonMountsR/textures/entity/dragon_eggs/ice.png",
+			"source": "data:image/png;base64,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"
+		},
+		{
+			"path": "C:\\Users\\Anas\\Desktop\\projects\\minecraft projects\\DragonMounts3-Preview-1.4.26\\DragonMountsR\\textures\\entity\\dragon_eggs\\water.png",
+			"name": "water.png",
+			"folder": "",
+			"namespace": "",
+			"id": "4",
+			"group": "",
+			"width": 64,
+			"height": 64,
+			"uv_width": 64,
+			"uv_height": 64,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"pbr_channel": "color",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": true,
+			"saved": true,
+			"uuid": "27036168-1c69-6473-ab46-39b5d9996a2a",
+			"relative_path": "../DragonMounts3-Preview-1.4.26/DragonMountsR/textures/entity/dragon_eggs/water.png",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAyRJREFUeF7tWz1rFUEUnWdSCIpGVBCChVg8SGGTNm2K/EkL/4atbZoUgQhBIQSEZzCKgsWLT2Z3Z/bOzJ27c9fCOclsl7w9j3fO3L0fZ2YXR+8uNuYOXwtJgP2XD83xxU9WHukzB0DAL47eft6Y7S0+BtY3hn7GEoruCb4IAB9EgCVoL7/qloC9YoEypBHxsgCWPEc2I0wiAAC+FyAmSf4uIgWMHwUwxuy/etyHvyO0vhn/Rx9ujjAofnwEKCkiAJsDLNm4QoDi+TKoDem4hgDhxT6g4xUlvJL6n5RCUklqwwc5gK35Up13TJmq4IlWjvcCxAkwIZBJfJ1oNFkO96Hg+06Qy+Bx1s81RMN9SQUBwcsCCB3f8afvfYc4hD8rAACeb4Ryyc+Rnsr6QHgfAXQ1PT86A0hzgXs83D3uCwDw02XwlnsFzQ9ofgCxxBDnefqEzvn9zQ9ofoAzREDneTqwzfEzmh/A2uJA8zzbpih+/3Qj1PyAcG8gq3g0LTY/wHmG1F/MzQb/0U9ofoBoiADM8//qRzQ/wEVA8wNu+dyfoyf2AcudjTm7XrDYg9c75sP5tSgbAl51PoAlpDgfUCM+iAC7qqurb+OqK88HIOIDAewK2SsIe8X5AET85PmAIlLC8FE7PtgbXD67168+aV8Plk/TZJfZJkPEz/YDkiqgPB9QC159PoAN6amdIiJObXi1HyDV9pJRuTZ89nyAD9GZ+/soeC+AT3YDYb9ShfM8Kt77AUkGV+7vo+JlATLh30XH1z/B+QBWAAB8sR+wfLIxZ6uB9FTWZ84H1Ipv5wPa+wLCCxO72z/M5foRW94P956b96cr0Q9AwKv8AJaQwg+oER90gnZVTz+ej6uu9AMQ8YEAdoXsFYS9wg9AxE/6AUWkBD+gdnwwC+ze/9WvPml/D9+8SJNdxg9AxM/2A5IqoPQDasGr/QA2pKc6QyJObXi1HyDV9hI/oDZ81g/wP3SmH4CC9wL4ZDcQTghkEp/bU0TF+2EoyeBKPwAVLwuQCf8ug598CfwAVgAAfLEf0D0Svx+kr9G62Z97vZacG6oVf+f9gL9seafB35crgAAAAABJRU5ErkJggg=="
+		}
+	],
+	"variants": {
+		"default": {
+			"name": "default",
+			"display_name": "Default",
+			"uuid": "a05186a6-197f-b68c-b2b5-22c789314b58",
+			"texture_map": {},
+			"excluded_nodes": [],
+			"is_default": true
+		},
+		"list": [
+			{
+				"name": "ice",
+				"display_name": "ice",
+				"uuid": "9cec911b-6271-3aef-eff9-a032ea731c5b",
+				"texture_map": {
+					"d7d2b984-1e19-b80d-3e69-6026a59d6191": "6a18e7cf-8e33-c16a-ae60-c108fab8b0f2"
+				},
+				"excluded_nodes": []
+			},
+			{
+				"name": "water",
+				"display_name": "water",
+				"uuid": "755712d6-acce-ab30-8570-fa0acd321ffe",
+				"texture_map": {
+					"d7d2b984-1e19-b80d-3e69-6026a59d6191": "27036168-1c69-6473-ab46-39b5d9996a2a"
+				},
+				"excluded_nodes": []
+			},
+			{
+				"name": "forest",
+				"display_name": "forest",
+				"uuid": "923a3a1a-7c75-c16f-7df3-8dada9abf5c0",
+				"texture_map": {
+					"d7d2b984-1e19-b80d-3e69-6026a59d6191": "12e9c4f2-a2f5-75e3-529f-71b392311738"
+				},
+				"excluded_nodes": []
+			},
+			{
+				"name": "fire",
+				"display_name": "fire",
+				"uuid": "a02bfcd3-1342-d2b6-313a-993fa5686f0a",
+				"texture_map": {
+					"d7d2b984-1e19-b80d-3e69-6026a59d6191": "1e8cb92e-bdc8-7256-e8f3-4406ea88ddcf"
+				},
+				"excluded_nodes": []
+			}
+		]
+	},
+	"animations": [
+		{
+			"uuid": "ca82b9d5-c7f0-0f07-1f0b-fa8a0ffba45c",
+			"name": "hatching",
+			"loop": "loop",
+			"override": false,
+			"length": 1.6333,
+			"snapping": 20,
+			"selected": true,
+			"saved": false,
+			"path": "C:\\Users\\Anas\\Desktop\\projects\\minecraft projects\\DragonMounts3-Preview-1.4.26\\DragonMountsR\\animations\\dragon_egg.animation.json",
+			"anim_time_update": "",
+			"blend_weight": "",
+			"start_delay": "",
+			"loop_delay": "",
+			"animators": {
+				"e2c8f531-dbcf-7136-c52d-610cb080d3ba": {
+					"name": "egg",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "math.sin(query.anim_time * 640.0) * -16.0",
+									"y": "0",
+									"z": "8 + math.sin(query.anim_time * 640.0 - 320) * -16.0"
+								}
+							],
+							"uuid": "0cfebb90-e7b1-7e35-13fc-1ff862592aab",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "fde20c7a-66b9-a986-fcb4-245f062f0f67",
+							"time": 1.65,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						}
+					]
+				},
+				"effects": {
+					"name": "Effects",
+					"type": "effect",
+					"keyframes": [
+						{
+							"channel": "sound",
+							"data_points": [
+								{
+									"effect": "dragonegg_bs0_sou",
+									"locator": "",
+									"file": ""
+								}
+							],
+							"uuid": "2e47c5b2-57ad-4366-fa9a-b1441e3a2c29",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "sound",
+							"data_points": [
+								{
+									"effect": "dragonegg_bs1_sou",
+									"locator": "",
+									"file": ""
+								}
+							],
+							"uuid": "b746f4bb-c41c-2adb-af10-73f0ec9e54ea",
+							"time": 0.8,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						}
+					]
+				}
+			}
+		}
+	],
+	"animation_controllers": []
+}

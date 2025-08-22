@@ -7,6 +7,5 @@ execute if entity @s[tag=aj.dragonmounts.animation.sit.playing] run function ani
 execute if entity @s[tag=aj.dragonmounts.animation.baby.playing] run function animated_java:dragonmounts/animations/baby/zzz/on_tick
 execute if entity @s[tag=aj.dragonmounts.animation.fly.playing] run function animated_java:dragonmounts/animations/fly/zzz/on_tick
 execute if entity @s[tag=aj.dragonmounts.animation.hover.playing] run function animated_java:dragonmounts/animations/hover/zzz/on_tick
-execute on passengers if entity @s[tag=aj.dragonmounts.data] run function animated_java:dragonmounts/root/zzz/on_tick/locators_and_cameras
 execute at @s on passengers run rotate @s ~ ~
 function animated_java:dragonmounts/ai/tick

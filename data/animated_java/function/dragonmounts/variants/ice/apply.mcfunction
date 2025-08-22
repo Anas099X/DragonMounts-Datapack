@@ -47,5 +47,6 @@ execute on passengers if entity @s[tag=aj.dragonmounts.bone.tail3] run function 
 execute on passengers if entity @s[tag=aj.dragonmounts.bone.tail2] run function animated_java:dragonmounts/variants/ice/zzz/apply_to_bone_tail2
 execute on passengers if entity @s[tag=aj.dragonmounts.bone.tail1] run function animated_java:dragonmounts/variants/ice/zzz/apply_to_bone_tail1
 execute on passengers if entity @s[tag=aj.dragonmounts.bone.tail0] run function animated_java:dragonmounts/variants/ice/zzz/apply_to_bone_tail0
+execute on passengers if entity @s[tag=aj.dragonmounts.bone.saddle] run function animated_java:dragonmounts/variants/ice/zzz/apply_to_bone_saddle
 execute on passengers if entity @s[tag=aj.dragonmounts.bone.body] run function animated_java:dragonmounts/variants/ice/zzz/apply_to_bone_body
 return 1

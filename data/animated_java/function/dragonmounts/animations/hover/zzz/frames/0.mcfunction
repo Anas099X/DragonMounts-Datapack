@@ -46,5 +46,5 @@ $data merge entity $(bone_tail3) {transformation: [-1.0935f,0f,0f,0f,0f,1.1001f,
 $data merge entity $(bone_tail2) {transformation: [-1.215f,0f,0f,0f,0f,1.1081f,-0.7327f,-5.264f,0f,-0.5724f,-1.1313f,-0.158f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_tail1) {transformation: [-1.35f,0f,0f,0f,0f,1.0307f,-1.0566f,-4.6697f,0f,-0.8879f,-1.0937f,0.4572f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_tail0) {transformation: [-1.5f,0f,0f,0f,0f,0.8388f,-1.4094f,-3.6672f,0f,-1.2436f,-0.9506f,0.6811f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
+$data merge entity $(bone_saddle) {transformation: [-3.005f,0f,0f,0f,0f,1.5025f,-2.6024f,1.1127f,0f,-2.6024f,-1.5025f,-0.3481f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_body) {transformation: [-2.6667f,0f,0f,0f,0f,1.3333f,-2.3094f,-0.0625f,0f,-2.3094f,-1.3333f,2.4375f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
-data modify entity @s data merge value {"cameras":{},"locators":{"saddle":{"posx":-2.2962127484012875e-16,"posy":-1.0367785792574935,"posz":1.875,"roty":0,"rotx":-60}}}
