@@ -27,6 +27,13 @@ execute if entity @s[nbt={OnGround:0b}] on passengers if entity @s[type=player] 
 execute if entity @s[nbt={OnGround:0b}] on passengers if entity @s[type=player] if predicate {"condition":"minecraft:entity_properties","entity":"this","predicate":{"type_specific":{"type":"minecraft:player","input":{"forward":true}}}} on vehicle on passengers if entity @s[tag=aj.dragonmounts.root,tag=!aj.dragonmounts.animation.fly.playing] run function animated_java:dragonmounts/animations/fly/tween {to_frame: 10, duration: 2}
 
 
+#dragon saddle
+execute if items entity @s saddle saddle run item replace entity @s saddle with saddle[equippable={slot:"saddle",asset_id:"/empty"}] 1
+execute if items entity @s saddle saddle on passengers on passengers run data modify entity @s[type=minecraft:item_display,tag=aj.dragonmounts.bone.saddle] view_range set value 1.0
+execute unless items entity @s saddle saddle on passengers on passengers run data modify entity @s[type=minecraft:item_display,tag=aj.dragonmounts.bone.saddle] view_range set value 0.0
+
+execute as @a if items entity @s player.cursor saddle[equippable={slot:"saddle",asset_id:"/empty"}] run item replace entity @s player.cursor with saddle 1
+
 #dragon sounds
 scoreboard players add @s dragon.fly.sounds 1
 scoreboard players add @s dragon.idle.sounds 1
