@@ -9,4 +9,5 @@ scoreboard objectives add dragon.fly.sounds dummy
 scoreboard objectives add dragon.idle.sounds dummy
 scoreboard objectives add camel_pose dummy
 scoreboard objectives add dragon_egg_hatching dummy
+scoreboard objectives add dragon.damage dummy
 schedule function animated_java:dragonmounts/ai/delayed_tick 5t

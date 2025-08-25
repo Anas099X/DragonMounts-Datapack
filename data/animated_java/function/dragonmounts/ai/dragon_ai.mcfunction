@@ -34,6 +34,16 @@ execute unless items entity @s saddle saddle on passengers on passengers run dat
 
 execute as @a if items entity @s player.cursor saddle[equippable={slot:"saddle",asset_id:"/empty"}] run item replace entity @s player.cursor with saddle 1
 
+
+#dragon damage
+execute store result score @s dragon.damage run data get entity @s HurtTime 1
+
+execute if score @s dragon.damage matches 4..7 run playsound minecraft:entity.ender_dragon.hurt neutral @a ~ ~ ~ 1 1
+execute if score @s dragon.damage matches 4.. on passengers on passengers run item modify entity @s container.0 animated_java:damage_tint
+execute if score @s dragon.damage matches ..3 on passengers on passengers run item modify entity @s container.0 animated_java:tint_reset
+
+
+
 #dragon sounds
 scoreboard players add @s dragon.fly.sounds 1
 scoreboard players add @s dragon.idle.sounds 1
